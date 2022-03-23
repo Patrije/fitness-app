@@ -1,0 +1,51 @@
+{
+  "activities": [
+    {
+      "id": "1",
+      "activityName": "Swimming",
+      "burnCalories": 1000
+    },
+    {
+      "id": "2",
+      "activityName": "Cycling",
+      "burnCalories": 2250
+    },
+    {
+      "id": "55",
+      "activityName": "Walking",
+      "burnCalories": 1280
+    },
+    {
+      "id": "65",
+      "activityName": "Running",
+      "burnCalories": 4340
+    },
+    {
+      "id": "75",
+      "activityName": "Walking",
+      "burnCalories": 2560
+    }
+  ],
+  "foods": [
+    {
+      "id": "1",
+      "foodName": "bread",
+      "eatenCalories": 3000
+    },
+    {
+      "id": "2",
+      "foodName": "bar",
+      "eatenCalories": 2800
+    },
+    {
+      "id": "5",
+      "foodName": "bread",
+      "eatenCalories": 500
+    },
+    {
+      "id": "8",
+      "foodName": "milk",
+      "eatenCalories": 8800
+    }
+  ]
+}

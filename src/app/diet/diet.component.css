@@ -1,0 +1,19 @@
+mat-card{
+    background-color: darkkhaki;
+}
+
+p{
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+}
+
+input{
+    width: 100px;
+}
+
+button{
+    height: 40px;
+}

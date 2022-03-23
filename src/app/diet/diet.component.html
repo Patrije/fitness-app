@@ -1,0 +1,30 @@
+<mat-card>
+    
+    <p>Diet</p>
+    <h4>Choose eaten food</h4>
+<div>
+    <mat-form-field appearance="fill">
+  <mat-label>Food product</mat-label>
+  <mat-select [(ngModel)]="selectedFood">
+    <mat-option *ngFor="let food of foods" [value]="food">
+      {{food.foodName}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+<input matInput placeholder="amount" [(ngModel)]="foodAmount">
+
+<button mat-raised-button color="accent" (click)="recordFood()">Record food</button>
+
+</div>
+
+<ul>
+    <li *ngFor="let recordedFood of recordedFoods"> 
+        {{recordedFood.foodName}}
+        ilosc zjedzaonych kalorii: {{recordedFood.eatenCalories}}
+    </li>
+</ul>
+</mat-card>
+
+

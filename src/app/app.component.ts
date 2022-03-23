@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fitness-app';
+
+  calorieSaldo = 0;
+
+  reduceCalories(calories:number){
+    this.calorieSaldo = this.calorieSaldo - calories;
+  }
+
+  addCalories(calories: number){
+    this.calorieSaldo = this.calorieSaldo +calories;
+  }
 }

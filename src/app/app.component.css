@@ -1,0 +1,15 @@
+div{
+    display: flex;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.container{
+width: 45%;
+margin: 5%;
+}
+
