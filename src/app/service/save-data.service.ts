@@ -28,4 +28,6 @@ export class SaveDataService {
     return this.httpClient.get<RecordedFood[]>("http://localhost:3000/foods");
   }
 
+
+
 }
